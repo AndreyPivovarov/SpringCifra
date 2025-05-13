@@ -8,6 +8,4 @@ public class GreetingServiceImpl1 implements GreetingService {
     public void greet(String name) {
         System.out.println("Hi, " + name + "!");
     }
-
-
 }

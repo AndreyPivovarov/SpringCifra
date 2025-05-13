@@ -11,5 +11,4 @@ public class GreetingServiceImpl implements GreetingService {
         System.out.println("Hello, " + name + "!");
     }
 
-
 }

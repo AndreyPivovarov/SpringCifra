@@ -3,7 +3,7 @@ package com.example.demo.notify;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("email")
 public class NotificationSender {
     private final NotificationService service;
 
